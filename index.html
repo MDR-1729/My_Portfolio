@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MDR | Python Full Stack Developer</title>
+  <meta name="description" content="Portfolio of Majji Durga Reddy, a Python Full Stack Developer specializing in Django, SQL, HTML, CSS, JavaScript, and web application development."/>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+
+</head>
+<body>
+
+    <nav id="desktop-nav">
+      <div class="logo">My Portfolio</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Skills</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+      <div class="logo">MDR</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#certifications" onclick="toggleMenu()">Certifications</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Majji Durga Reddy profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">MAJJI DURGA REDDY</h1>
+        <p class="section__text__p2">Python Full Stack Developer</p>
+        <p class="section__text__p3">
+          I build clean, scalable, database-driven web applications using Python,
+          Django, SQL, HTML, CSS, JavaScript, and Bootstrap.
+        </p>
+        <div class="btn-container">
+          <a
+            class="btn btn-color-2"
+            href="./assets/MajjiDurgaReddy_PythonFullStackDeveloper_Resume.pdf"
+            download
+          >
+            Download CV
+          </a>
+          <a class="btn btn-color-1" href="#contact">Contact Info</a>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon social-icon"
+            onclick="window.open('https://www.linkedin.com/in/majji-durga-reddy-89ba08265/', '_blank')"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My GitHub profile"
+            class="icon social-icon"
+            onclick="window.open('https://github.com/MDR-1729', '_blank')"
+          />
+          <img
+            src="./assets/email.png"
+            alt="My email"
+            class="icon social-icon social-email-icon"
+            onclick="window.location.href='mailto:majjidurgareddy166@gmail.com'"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <p class="section__text__p1">Get to know more</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container about-pic-wrapper">
+          <img src="./assets/about-pic.jpg" alt="Profile picture" class="about-pic" />
+        </div>
+
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+              <h3>Experience</h3>
+              <p>6-Month Internship<br />Python Full Stack Development</p>
+            </div>
+            <div class="details-container">
+              <img src="./assets/education.png" alt="Education icon" class="icon" />
+              <h3>Education</h3>
+              <p>B.Tech in ECE<br />CGPA: 9.1/10</p>
+            </div>
+          </div>
+
+          <div class="text-container">
+            <p>
+              I am an entry-level Python Full Stack Developer with hands-on experience
+              in building and deploying Django-based web applications for employee and
+              student record management, task tracking, and form-driven workflows.
+              My work includes database-backed CRUD operations, record listing,
+              validation, debugging, and deployment using Python, Django, SQL,
+              HTML, CSS, JavaScript, Bootstrap, SQLite, and MySQL.
+            </p>
+            <p>
+              I graduated with a B.Tech in Electronics and Communication Engineering
+              from NRI Institute of Technology with a CGPA of 9.1/10. I am actively
+              seeking opportunities to contribute to reliable, user-focused,
+              and scalable web applications while continuing to grow as a developer.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+
+    <section id="experience">
+      <p class="section__text__p1">Explore my</p>
+      <h1 class="title">Skills &amp; Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>HTML5</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>CSS3</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Bootstrap</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend &amp; Database</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Python</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Django</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>SQLite</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Git/GitHub</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+
+    <section id="certifications">
+      <p class="certification-eyebrow">Credentials</p>
+      <h1 class="title">Certifications</h1>
+      <div class="certification-list">
+        <div class="certification-row">
+          <h2>Python Full Stack Developer Internship</h2>
+          <p>Coding Brains-E Academy</p>
+          <time datetime="2026-06">June–November 2026</time>
+        </div>
+        <div class="certification-row">
+          <h2>SQL (Intermediate)</h2>
+          <p>HackerRank</p>
+          <time datetime="2026-06">June 2026</time>
+        </div>
+        <div class="certification-row">
+          <h2>Front-End Web Development</h2>
+          <p>NXTSYNC Private Limited</p>
+          <time datetime="2024-06">June–September 2025</time>
+        </div>
+        <div class="certification-row">
+          <h2>Python for Data Science</h2>
+          <p>Reliance Foundation Skilling Academy</p>
+          <time datetime="2025-05">May 2025</time>
+        </div>
+        <div class="certification-row">
+          <h2>Python (Basic)</h2>
+          <p>HackerRank</p>
+          <time datetime="2024-05">May 2024</time>
+        </div>
+        <div class="certification-row">
+          <h2>Junior Software Developer — PMKVY 4.0</h2>
+          <p>PMKVY</p>
+          <time datetime="2024-02">February–May 2024</time>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <p class="section__text__p1">Browse my recent</p>
+      <h1 class="title">Featured Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers project-grid">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-1.png" alt="Employee Database Project" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Employee Database Management System</h2>
+            <p class="project-description">
+              A Django-powered employee directory for organizing employee records,
+              contact details, and role-based workforce information in a structured dashboard.
+            </p>
+            <div class="btn-container">
+              <a class="btn btn-color-2 project-btn" href="https://github.com/MDR-1729/Employee_DBMS.git" target="_blank">GitHub</a>
+              <a class="btn btn-color-2 project-btn" href="https://mdr1006.pythonanywhere.com/" target="_blank">Live Demo</a>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-2.png" alt="Student Database Project" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Student Database Management System</h2>
+            <p class="project-description">
+              A student record management web app with form-based data entry, editable
+              records, and a clean table interface for handling academic information efficiently.
+            </p>
+            <div class="btn-container">
+              <a class="btn btn-color-2 project-btn" href="https://github.com/MDR-1729/Student_DBMS.git" target="_blank">GitHub</a>
+              <a class="btn btn-color-2 project-btn" href="https://mdr1002.pythonanywhere.com/" target="_blank">Live Demo</a>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-3.png" alt="To-Do application Project" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">To-Do Application</h2>
+            <p class="project-description">
+              A task-tracking application designed to help users add, edit, view,
+              and delete tasks while keeping daily productivity organized and manageable.
+            </p>
+            <div class="btn-container">
+              <a class="btn btn-color-2 project-btn" href="https://github.com/MDR-1729/ToDo_Application.git" target="_blank">GitHub</a>
+              <a class="btn btn-color-2 project-btn" href="https://mdr1003.pythonanywhere.com/" target="_blank">Live Demo</a>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-4.png" alt="CV Generator Project" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">CV Generator</h2>
+            <p class="project-description">
+              A responsive CV generator that lets users enter personal, educational,
+              skill, and project details to create a polished, professional resume layout.
+            </p>
+            <div class="btn-container">
+              <a class="btn btn-color-2 project-btn" href="https://github.com/MDR-1729/CV_Generator.git" target="_blank">GitHub</a>
+              <a class="btn btn-color-2 project-btn" href="https://mdr1004.pythonanywhere.com/" target="_blank">Live Demo</a>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-5.png" alt="Email Verification Project" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Email Verification</h2>
+            <p class="project-description">
+              A simple email verification system that sends a confirmation link to the user's email address to validate their identity.
+            </p>
+            <div class="btn-container">
+              <a class="btn btn-color-2 project-btn" href="https://github.com/MDR-1729/Email_Verify_Application.git" target="_blank">GitHub</a>
+              <a class="btn btn-color-2 project-btn" href="https://mdr1005.pythonanywhere.com/" target="_blank">Live Demo</a>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project-6.png" alt="Banking Application Project" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Banking Application</h2>
+            <p class="project-description">
+              A secure banking application for managing customer accounts, deposits, withdrawals, fund transfers and transaction history.
+            </p>
+            <div class="btn-container">
+              <a class="btn btn-color-2 project-btn" href="https://github.com/MDR-1729/Banking_Application.git" target="_blank">GitHub</a>
+              <a class="btn btn-color-2 project-btn" href="https://mdr1007.pythonanywhere.com/" target="_blank">Live Demo</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+          <p><a href="mailto:majjidurgareddy166@gmail.com">majjidurgareddy166@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+          <p><a href="https://www.linkedin.com/in/majji-durga-reddy-89ba08265/" target="_blank">LinkedIn</a></p>
+        </div>
+      </div>
+      <form id="contact-form" class="contact-form">
+        <div class="form-field">
+          <label for="contact-name">Name</label>
+          <input
+            id="contact-name"
+            name="name"
+            type="text"
+            autocomplete="name"
+            placeholder="Your full name"
+            required
+          />
+        </div>
+        <div class="form-field">
+          <label for="contact-email">Email</label>
+          <input
+            id="contact-email"
+            name="email"
+            type="email"
+            autocomplete="email"
+            placeholder="you@company.com"
+            required
+          />
+        </div>
+        <div class="form-field">
+          <label for="contact-subject">Subject</label>
+          <input
+            id="contact-subject"
+            name="subject"
+            type="text"
+            placeholder="Role, project, or opportunity"
+            required
+          />
+        </div>
+        <div class="form-field">
+          <label for="contact-message">Message</label>
+          <textarea
+            id="contact-message"
+            name="message"
+            rows="5"
+            placeholder="Tell me a bit about what you're looking for..."
+            required
+          ></textarea>
+        </div>
+        <button class="btn btn-color-1 contact-submit" type="submit">Send message</button>
+        <p class="form-note">
+          This opens your email app with the message pre-filled. Nothing is sent from this page.
+        </p>
+      </form>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Skills</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &copy; 2026 MDR. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
